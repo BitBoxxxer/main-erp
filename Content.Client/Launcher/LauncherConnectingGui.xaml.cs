@@ -46,7 +46,6 @@ namespace Content.Client.Launcher
             var linkGithub = _cfg.GetCVar(CCVars.InfoLinksGithub);
             var linkForum = _cfg.GetCVar(CCVars.InfoLinksForum);
             // LOP edit end
-
             RobustXamlLoader.Load(this);
 
             LayoutContainer.SetAnchorPreset(this, LayoutContainer.LayoutPreset.Wide);
@@ -74,7 +73,6 @@ namespace Content.Client.Launcher
             OpenGithubButton.Visible = _cfg.GetCVar(CCVars.InfoLinksGithub) != "";
             OpenForumButton.Visible = _cfg.GetCVar(CCVars.InfoLinksForum) != "";
             // LOP edit end
-
             var addr = state.Address;
             if (addr != null)
                 ConnectingAddress.Text = addr;
