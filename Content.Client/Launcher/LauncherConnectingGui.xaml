@@ -4,7 +4,6 @@
          xmlns:parallax="clr-namespace:Content.Client.Parallax"
          xmlns:controls="clr-namespace:Content.Client.UserInterface.Controls">
     <parallax:ParallaxControl SpeedX="20"/>
-
     <!-- LOP edit start -->
     <BoxContainer Orientation="Vertical"
                   HorizontalAlignment="Right"
@@ -53,7 +52,6 @@
         </PanelContainer>
     </BoxContainer>
     <!-- LOP edit end -->
-
     <Control HorizontalAlignment="Center" VerticalAlignment="Center">
         <PanelContainer StyleClasses="AngleRect" />
         <BoxContainer Orientation="Vertical" MinSize="300 200">
